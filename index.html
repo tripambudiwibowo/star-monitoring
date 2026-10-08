@@ -17,11 +17,13 @@
       background-color: #0f172a; /* Latar belakang slate-900 */
       font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
     }
-    .iframe-container {
+    .iframe-wrapper {
+      position: absolute;
+      top: 0;
+      left: 0;
       width: 100%;
-      height: 100vh;
+      height: 100%;
       border: none;
-      outline: none;
     }
     iframe {
       width: 100%;
@@ -33,8 +35,8 @@
 </head>
 <body>
 
-  <div class="iframe-container">
-    <!-- GANTI URL DI BAWAH INI DENGAN URL WEB APP GOOGLE APPS SCRIPT ANDA (/exec) -->
+  <div class="iframe-wrapper">
+    <!-- GANTI URL DI BAWAH INI DENGAN URL WEB APP GOOGLE APPS SCRIPT ANDA (BERAKHIRAN /exec) -->
     <iframe 
       src=https://script.google.com/macros/s/AKfycbzXUVk9PM3uXuntlNu4JtAGD3koNPOnDRp8wB80wXbTiidGt5wTz9gbeRFbMZ8Y4cwI4g/exec> 
       allow="geolocation; microphone; camera; clipboard-write;"
