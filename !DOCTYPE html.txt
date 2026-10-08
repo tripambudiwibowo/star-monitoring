@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>STAR Task Monitoring System</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    html, body {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      background-color: #0f172a; /* Latar belakang slate-900 */
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    }
+    .iframe-container {
+      width: 100%;
+      height: 100vh;
+      border: none;
+      outline: none;
+    }
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: 0;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="iframe-container">
+    <!-- GANTI URL DI BAWAH INI DENGAN URL WEB APP GOOGLE APPS SCRIPT ANDA (/exec) -->
+    <iframe 
+      src=https://script.google.com/macros/s/AKfycbwIxO6wMrqRj2YbI6PQy2vuHMTmMENP8p40kNTRztWH61-tiWVFUp-NinceYWzcL4_45w/exec> 
+      allow="geolocation; microphone; camera; clipboard-write;"
+      sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts">
+    </iframe>
+  </div>
+
+</body>
+</html>
